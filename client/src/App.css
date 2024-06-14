@@ -1,0 +1,50 @@
+*{
+  transition: all 0.2s;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.win{
+  width: 50vw;
+  min-height: 80vh;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: relative;
+}
+.chat{
+  height: 73vh;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.controls{
+  width: 100%;
+  display: flex;
+}
+input, button{
+  height: 5vh;
+  border: 0;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  font-size: 18px;
+  color: white;
+}
+input{
+  margin-right: 5px;
+}
+input::placeholder{
+  color: white
+}
+.message{
+  width: 89%
+}
+button{
+  width: 11%;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(24, 116, 208);
+}

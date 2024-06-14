@@ -1,0 +1,15 @@
+.message{
+    width: 300px
+}
+.person{
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 2px
+}
+.text{
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
